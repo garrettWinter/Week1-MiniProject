@@ -2,13 +2,51 @@
     font-family: 'Times New Roman', Times, serif;
     background-color: rebeccapurple;
     color: gold;
-    list-style-type: none;
 }
 header{
-    }
-.navigationBar{
-    position: fixed;
+    box;
+    text-align: center;
+    background-color: green;
+    position: sticky;
     top: 0px;
+    padding: 0px;
+      }
+footer{
+    position: relative;
+    bottom: 0px;
+    background-color: green;
+    line-height: 75px;
+    width: 100%;
+    margin: -20px;
+}
+li{
     display: inline;
+}
+a{
+    color:orange;
+    background-color: green;
+    width: 100%;
+}
+figure{
+    font-weight: bolder;
+}
+.navigationBar {
+    position: fixed;
+    display: inline;
+    right: 25px;
+    top: 0px;
+    list-style-type: none;
     color: black;
+    background-color: green;
+}
+section{
+text-align: center;
+}
+#headerText{
+    background-color: green;
+    line-height: 75px;
+    width: 100%;
+}
+.doNotShow{
+    visibility: hidden;
 }
