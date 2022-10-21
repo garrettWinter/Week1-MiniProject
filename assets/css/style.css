@@ -1,0 +1,14 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rebeccapurple;
+    color: gold;
+    list-style-type: none;
+}
+header{
+    }
+.navigationBar{
+    position: fixed;
+    top: 0px;
+    display: inline;
+    color: black;
+}
