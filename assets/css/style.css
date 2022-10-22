@@ -4,7 +4,6 @@
     color: gold;
 }
 header{
-    box;
     text-align: center;
     background-color: green;
     position: sticky;
@@ -30,6 +29,11 @@ a{
 figure{
     font-weight: bolder;
 }
+button{
+background-color: darkgrey;
+color: black;
+border: solid 2px black;
+}
 .navigationBar {
     position: fixed;
     display: inline;
@@ -49,4 +53,20 @@ text-align: center;
 }
 .doNotShow{
     visibility: hidden;
+}
+.pageBreak { 
+    display: block;
+    visibility: visible;
+    margin: 0 auto;
+    height: 1000px; /*this is to ensure the page has a scroll bar*/ 
+    width: 0px;
+    background-color: black;
+  }
+#contactUsTop{
+    border: none 3px black;
+    height: 335px;
+}
+#contactUsBottom{
+    border: solid 3px darkgrey;
+    height: 190px;
 }
