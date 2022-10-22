@@ -44,6 +44,27 @@ button{
     font-size: 40px;
 
 }
+section{
+    text-align: center;
+    position: inline;
+}
+h1{
+    margin: 8px;
+}
+h2{
+    font-size: 45px;
+    padding-top: 75px;
+    }
+h3{
+    font-size: 45px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+p{
+    position: relative ;
+    font-size: 30px;
+    right:0px;
+}
 .navigationBar {
     position: sticky;
     display: inline;
@@ -80,44 +101,15 @@ button{
     padding-right: 25%;
     border: none 2px black;
 }
-section{
-    text-align: center;
-    postion:inline;
-}
-h1{
-    margin: 8px;
-}
-h2{
-    font-size: 45px;
-}
-h3{
-    font-size: 45px;
-    margin-bottom: 15px;
-    margin-top: 40px;
-}
-p{
-    postion: relative ;
-    font-size: 30px;
-    right:0px;
-}
-#headerText{
-    display:inline;
-    right: 0px;
-    background-color: green;
-    line-height: 75px;
-    width: 100%;
-    padding-right: 20%;
-    font-size: 100%;
-}
 .doNotShow{
     visibility: hidden;
 }
 .pageBreak { 
     position: relative;
     display: block;
-    visibility: hidden;
+    visibility: visible;
     margin: 0 auto;
-    height: 650px; /*this is to ensure the page has a scroll bar*/ 
+    height: 400px; /*this is to ensure the page has a scroll bar*/ 
     width: 0px;
     background-color: black;
   }
@@ -138,5 +130,12 @@ p{
     margin: 10px;
     margin-bottom: 15px;
 }
-#Testimonials{
+#headerText{
+    display:inline;
+    right: 0px;
+    background-color: green;
+    line-height: 75px;
+    width: 100%;
+    padding-right: 20%;
+    font-size: 100%;
 }
