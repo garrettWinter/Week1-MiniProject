@@ -20,15 +20,6 @@ Provide a short description explaining the what, why, and how of your project. U
     - The submit for this page has not action tied to it and will not capture any data.
 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Credits
 
 - Collaborators
